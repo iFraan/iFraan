@@ -15,3 +15,6 @@
 <img align="center" src="https://raw.githubusercontent.com/iFraan/profile-summary/master/profile-summary-card-output/github/2-most-commit-language.svg" alt="ifraan" />
 <img align="center" src="https://raw.githubusercontent.com/iFraan/profile-summary/master/profile-summary-card-output/github/3-stats.svg" alt="ifraan" />
 </p>
+
+
+![Metrics](/github-metrics.svg)
