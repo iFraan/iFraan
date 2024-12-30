@@ -14,6 +14,16 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev
+          gem install nokogiri
       - uses: iFraan/metrics@master
         with:
           token: ${{ secrets.METRICS_SECRET }}
