@@ -19,7 +19,7 @@ jobs:
           user: iFraan
           template: classic
           base: header, activity, community, repositories, metadata
-          base_hireable: true
+          base_hireable: yes
           config_timezone: Argentina/Buenos_Aires
           plugin_achievements: yes
           plugin_achievements_display: detailed
@@ -30,6 +30,7 @@ jobs:
           plugin_habits_days: 30
           plugin_habits_from: 750
           plugin_habits_facts: yes
+          plugin_habits_charts: yes
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
           plugin_isocalendar: yes
@@ -40,6 +41,7 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
+          plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 1000
@@ -47,6 +49,7 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_lines_sections: base, repositories, history
+          plugin_lines_delay: 30
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred
