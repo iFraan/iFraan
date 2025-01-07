@@ -14,16 +14,16 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.1
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev
-          gem install nokogiri
+      # - uses: actions/checkout@v2
+      # - name: Set up Ruby
+      #   uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: 3.1
+      # - name: Install dependencies
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev
+      #     gem install nokogiri
       - uses: iFraan/metrics@master
         with:
           token: ${{ secrets.METRICS_SECRET }}
@@ -52,13 +52,13 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 1000
+          # plugin_languages_recent_categories: markup, programming
+          # plugin_languages_recent_days: 14
+          # plugin_languages_recent_load: 1000
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
-          plugin_lines: yes
-          plugin_lines_sections: base, repositories, history
+          # plugin_lines: yes
+          # plugin_lines_sections: base, repositories, history
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred
