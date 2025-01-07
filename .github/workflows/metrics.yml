@@ -54,3 +54,6 @@ jobs:
           plugin_topics_limit: 15
           plugin_topics_mode: starred
           plugin_topics_sort: stars
+          plugin_leetcode: yes
+          plugin_leetcode_user: iFraan
+          plugin_leetcode_sections: solved, skills, recent
