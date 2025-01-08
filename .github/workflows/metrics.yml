@@ -20,7 +20,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_hireable: yes
-          config_timezone: Argentina/Buenos_Aires
+          config_timezone: America/Argentina/Buenos_Aires
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
