@@ -27,8 +27,8 @@ jobs:
           plugin_achievements_threshold: B
           plugin_habits: yes
           plugin_habits_charts_type: classic
-          plugin_habits_days: 30
-          plugin_habits_from: 500
+          plugin_habits_days: 20
+          plugin_habits_from: 250
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_languages_limit: 8
@@ -44,12 +44,12 @@ jobs:
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 1000
+          plugin_languages_recent_load: 680
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_lines_sections: base, repositories, history
-          plugin_lines_delay: 10
+          plugin_lines_delay: 5
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred
