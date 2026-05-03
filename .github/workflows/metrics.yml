@@ -36,24 +36,24 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 60
-          plugin_languages_analysis_timeout_repositories: 15
+          # plugin_languages_analysis_timeout: 60
+          # plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 400
+          # plugin_languages_recent_days: 14
+          # plugin_languages_recent_load: 400
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
           # plugin_lines: yes
           # plugin_lines_sections: base, repositories, history
           # plugin_lines_delay: 5
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: starred
-          plugin_topics_sort: stars
+          # plugin_topics: yes
+          # plugin_topics_limit: 15
+          # plugin_topics_mode: starred
+          # plugin_topics_sort: stars
           plugin_leetcode: yes
           plugin_leetcode_user: iFraan
           plugin_leetcode_sections: solved, skills, recent
